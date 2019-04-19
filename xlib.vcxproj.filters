@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="depends">
+      <UniqueIdentifier>{f9ab4ff8-01ea-4245-88c6-14fc6a701ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open">
+      <UniqueIdentifier>{96a77012-a67a-4438-ad4b-69605f7c7a65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="depends\md5.h">
+      <Filter>depends</Filter>
+    </ClInclude>
+    <ClInclude Include="depends\unzip.h">
+      <Filter>depends</Filter>
+    </ClInclude>
+    <ClInclude Include="depends\zip.h">
+      <Filter>depends</Filter>
+    </ClInclude>
+    <ClInclude Include="open\AppRecver.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\DataCenter.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\DatX.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\IProcPiper.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\TaskRunner.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\xCores.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\xUtils.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="depends\compile.h">
+      <Filter>depends</Filter>
+    </ClInclude>
+    <ClInclude Include="depends\define.h">
+      <Filter>depends</Filter>
+    </ClInclude>
+    <ClInclude Include="open\open.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="xlib.h" />
+    <ClInclude Include="open\DbgUtil.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\FileUtil.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\StrUtil.h">
+      <Filter>open</Filter>
+    </ClInclude>
+    <ClInclude Include="open\SysUtil.h">
+      <Filter>open</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="depends\md5.cpp">
+      <Filter>depends</Filter>
+    </ClCompile>
+    <ClCompile Include="depends\unzip.cpp">
+      <Filter>depends</Filter>
+    </ClCompile>
+    <ClCompile Include="depends\zip.cpp">
+      <Filter>depends</Filter>
+    </ClCompile>
+    <ClCompile Include="open\DataCenter.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\DatX.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\DbgUtil.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\FileUtil.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\IProcPiper.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\StrUtil.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="open\SysUtil.cpp">
+      <Filter>open</Filter>
+    </ClCompile>
+    <ClCompile Include="xlib.cpp" />
+  </ItemGroup>
+</Project>
